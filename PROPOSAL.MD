@@ -19,7 +19,6 @@ We will use Helm to install Prometheus and Grafana.
 
 
 Work distribution:
-
 | Topic        | Philipp   | Nico       |
 |--------------|-----------|------------|
 | Documentation (Research) |      |   X   |
@@ -27,5 +26,5 @@ Work distribution:
 | Helm Setup   |   X   |      |
 | Grafana & Prometheus Setup |   X   |   X   |
 | Script.py (including Prometheus-Client Library) |   X   |   X   |
-| Try Local hosting |   X   |      |
-| Setup Cloud hosting (**gCloud??**) |     |   X   |
+| Try Local hosting |   X   |   X   |
+| Setup Cloud hosting (gCloud) |     |   X   |
