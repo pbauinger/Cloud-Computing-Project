@@ -1,6 +1,6 @@
 # Monitoring and Alerting for a Python Application running on Kubernetes
 
-The objective of this project is to implement monitoring and alerting for a Kubernetes cluster consisting of a single node running a simple Python application. The system will use Prometheus to collect metrics of the node and the Python application. For that we will modify the Python Application that it exposes metrics which then can be pulled by Prometheus. We want to get at least the following metrics for the python application:
+The objective of this project is to implement monitoring and alerting for a Kubernetes cluster consisting of a single node running a simple Python application. The system will use Prometheus to collect metrics of the node and the Python application. For that we will modify the Python Application that it exposes metrics using https://github.com/prometheus/client_python The metrics then can be pulled by Prometheus. We want to get at least the following metrics for the python application:
  - Total requests
  - Failed requests
  - Request success rate
