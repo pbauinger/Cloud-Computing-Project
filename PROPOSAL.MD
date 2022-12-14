@@ -15,3 +15,18 @@ We will use Grafana to visualize these metrics as graphs.
 The python service should provide a REST API. At first we will run the application only one a single pod. We will load test the application and therefore trigger alerts when it becomes unresponsive. We then increase the number of pods and check if we can handle more load.
 
 We will use Helm to install Prometheus and Grafana.
+
+
+
+Work distribution:
+
+| Topic        | Philipp   | Nico       |
+|--------------|-----------|------------|
+| Research |     |     |
+| Documentation |   |   |
+| Helm Setup   |        |         |
+| Grafana & Prometheus Setup |     |      |
+| Script.py (including Prometheus-Client Library) |     |     |
+| Try Local hosting |   |   |
+| Setup Cloud hosting (**gCloud??**) |     |     |
+| Tutorial (Instructions & Reproducibility) |   |   |
