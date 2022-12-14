@@ -22,11 +22,10 @@ Work distribution:
 
 | Topic        | Philipp   | Nico       |
 |--------------|-----------|------------|
-| Research |     |     |
-| Documentation |   |   |
-| Helm Setup   |        |         |
-| Grafana & Prometheus Setup |     |      |
-| Script.py (including Prometheus-Client Library) |     |     |
-| Try Local hosting |   |   |
-| Setup Cloud hosting (**gCloud??**) |     |     |
-| Tutorial (Instructions & Reproducibility) |   |   |
+| Documentation (Research) |      |   X   |
+| Documentation (Tutorial: Instructions & Reproducibility) |   X   |      |
+| Helm Setup   |   X   |      |
+| Grafana & Prometheus Setup |   X   |   X   |
+| Script.py (including Prometheus-Client Library) |   X   |   X   |
+| Try Local hosting |   X   |      |
+| Setup Cloud hosting (**gCloud??**) |     |   X   |
