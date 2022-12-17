@@ -48,3 +48,6 @@ The installation instructions can be found [here](https://prometheus-community.g
 is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
 
 [Here](https://grafana.com/docs/agent/latest/operator/helm-getting-started/) is how to install Grafana w/ Helm.
+
+# Architecture
+![Architecture](/Architecture.drawio.png")
