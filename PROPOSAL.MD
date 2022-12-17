@@ -10,13 +10,13 @@ For the node we want to get at least the following metrics:
  - Memory usage
  - Available storage
 
-We will use [Grafana](https://grafana.com/docs/grafana/latest/introduction/) to visualize these metrics as graphs. 
+We will use [Grafana](https://grafana.com/docs/grafana/latest/introduction/) to visualize these metrics as graphs (since it supports querying for Prometheus, see [source](https://prometheus.io/docs/visualization/grafana/)).
 
 The python service should provide a REST API. At first we will run the application only one a single pod. We will load test the application and therefore trigger alerts when it becomes unresponsive. We then increase the number of pods and check if we can handle more load.
 
 We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 
-Work distribution:
+## Work distribution:
 | Topic        | Philipp   | Nico       |
 |--------------|-----------|------------|
 | Documentation (Research) |      |   X   |
@@ -28,7 +28,7 @@ Work distribution:
 | Setup Cloud hosting (gCloud) |     |   X   |
 
 
-# Software
-**Prometheus** is an open-source toolkit for system monitoring and alerting.
-**Grafana** is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
+## Software
+**Prometheus** is an open-source toolkit for system monitoring and alerting.\
+**Grafana** is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.\
 **Helm** is the package manager for Kubernetes.
