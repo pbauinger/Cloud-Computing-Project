@@ -1,6 +1,6 @@
 # Monitoring and Alerting for a Python Application running on Kubernetes
 
-The objective of this project is to implement monitoring and alerting for a Kubernetes cluster consisting of a single node running a simple Python application. The system will use Prometheus to collect metrics of the node and the Python application. For that we will modify the Python Application that it exposes metrics using https://github.com/prometheus/client_python The metrics then can be pulled by Prometheus. We want to get at least the following metrics for the python application:
+The objective of this project is to implement monitoring and alerting for a Kubernetes cluster consisting of a single node running a simple Python application. The system will use [Prometheus](https://prometheus.io/docs/introduction/overview/) to collect metrics of the node and the Python application. For that we will modify the Python Application that it exposes metrics using https://github.com/prometheus/client_python. The metrics then can be pulled by Prometheus. We want to get at least the following metrics for the python application:
  - Total requests
  - Failed requests
  - Number of exceptions
@@ -10,13 +10,11 @@ For the node we want to get at least the following metrics:
  - Memory usage
  - Available storage
 
-We will use Grafana to visualize these metrics as graphs. 
+We will use [Grafana](https://grafana.com/docs/grafana/latest/introduction/) to visualize these metrics as graphs. 
 
 The python service should provide a REST API. At first we will run the application only one a single pod. We will load test the application and therefore trigger alerts when it becomes unresponsive. We then increase the number of pods and check if we can handle more load.
 
-We will use Helm to install Prometheus and Grafana.
-
-
+We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 
 Work distribution:
 | Topic        | Philipp   | Nico       |
@@ -28,3 +26,9 @@ Work distribution:
 | Script.py (including Prometheus-Client Library) |   X   |   X   |
 | Try Local hosting |   X   |   X   |
 | Setup Cloud hosting (gCloud) |     |   X   |
+
+
+# Software
+**Prometheus** is an open-source toolkit for system monitoring and alerting.
+**Grafana** is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
+**Helm** is the package manager for Kubernetes.
