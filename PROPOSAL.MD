@@ -40,12 +40,11 @@ Here you can find the [installation steps](https://helm.sh/docs/intro/install/).
 ### Prometheus
 is an open-source toolkit for system monitoring and alerting. It collects metrics from monitored targets by collecting metrics HTTP endpoints on them.
 
-[Install guide](https://prometheus.io/docs/introduction/first_steps/#first-steps-with-prometheus):
-1. download from [here](https://prometheus.io/download/)
-2. [configure](https://prometheus.io/docs/introduction/first_steps/#configuring-prometheus)
-3. [start](https://prometheus.io/docs/introduction/first_steps/#starting-prometheus)
+The installation instructions can be found [here](https://prometheus-community.github.io/helm-charts/).
 
 
 
 ### Grafana
 is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
+
+[Here](https://grafana.com/docs/agent/latest/operator/helm-getting-started/) is how to install Grafana w/ Helm.
