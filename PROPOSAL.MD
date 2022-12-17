@@ -50,4 +50,4 @@ is an open-source software that enables you to query, visualize, alert on, and e
 [Here](https://grafana.com/docs/agent/latest/operator/helm-getting-started/) is how to install Grafana w/ Helm.
 
 # Architecture
-![Architecture](Architecture.drawio.png")
+![Architecture]("Architecture.drawio.png")
