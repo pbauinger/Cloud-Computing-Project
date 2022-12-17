@@ -29,6 +29,23 @@ We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 
 
 ## Software
-**Prometheus** is an open-source toolkit for system monitoring and alerting.\
-**Grafana** is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.\
-**Helm** is the package manager for Kubernetes.
+### Helm
+is the package manager for Kubernetes. It's [requirements](https://helm.sh/docs/intro/quickstart/#prerequisites) are:
+- a kubernetes cluster
+- security configurations (if any)
+- [local configured copy of kubectl]
+
+Here you can find the [installation steps](https://helm.sh/docs/intro/install/).
+
+### Prometheus
+is an open-source toolkit for system monitoring and alerting. It collects metrics from monitored targets by collecting metrics HTTP endpoints on them.
+
+[Install guide](https://prometheus.io/docs/introduction/first_steps/#first-steps-with-prometheus):
+1. download from [here](https://prometheus.io/download/)
+2. [configure](https://prometheus.io/docs/introduction/first_steps/#configuring-prometheus)
+3. [start](https://prometheus.io/docs/introduction/first_steps/#starting-prometheus)
+
+
+
+### Grafana
+is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
