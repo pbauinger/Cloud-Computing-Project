@@ -49,4 +49,6 @@ is an open source software that can be used to visualize metrics as graphs in mu
 
 ## Architecture
 We will run the Python application, Prometheus and Grafana on a single node.
-![Architecture]("Architecture.drawio.png")
+
+
+![Architecture]("./assets/Architecture.png")
