@@ -51,4 +51,5 @@ is an open source software that can be used to visualize metrics as graphs in mu
 We will run the Python application, Prometheus and Grafana on a single node.
 
 
-![Architecture]("./assets/Architecture.png")
+![image](https://user-images.githubusercontent.com/16125084/208323899-554408b3-5034-4c11-94bf-aec69d206d8f.png)
+
