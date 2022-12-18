@@ -30,24 +30,22 @@ We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 
 ## Software
 ### Helm
-is the package manager for Kubernetes. It's [requirements](https://helm.sh/docs/intro/quickstart/#prerequisites) are:
-- a kubernetes cluster
-- security configurations (if any)
-- [local configured copy of kubectl]
+is a package manager for Kubernetes. Helm works with Charts. Charts bundle all required resources to run a application. For most programs there are already existing Helm charts which can be easily installed. Doing the installation manually would be more work since applications usually consist of multiple services, configmaps, deployments and so on.
 
-Here you can find the [installation steps](https://helm.sh/docs/intro/install/).
+Install instructions: https://helm.sh/docs/intro/install/
 
 ### Prometheus
-is an open-source toolkit for system monitoring and alerting. It collects metrics from monitored targets by collecting metrics HTTP endpoints on them.
+is an open-source system for monitoring and alerting. It collects metrics from monitored targets and stores them in a timeseries database. This is done with a pull-based approach, where the targets have to expose their metrics over a HTTP endpoint. The data can be queried with the provided query language PromQL.
+
+We will install it with Helm and operate it directly in the cluster. Since we are only running on a single node, it wil run on the same node as the python application. 
 
 The installation instructions can be found [here](https://prometheus-community.github.io/helm-charts/).
 
 
-
 ### Grafana
-is an open-source software that enables you to query, visualize, alert on, and explore metrics, logs, and traces wherever they are stored.
+is an open source software that can be used to visualize metrics as graphs in multiple dashboards. It comes with Prometheus support by default and therefore we can use PromQL to build the dashboard visualizing our metrics. We will also run it directly in the cluster and also install it with Helm.
 
 [Here](https://grafana.com/docs/agent/latest/operator/helm-getting-started/) is how to install Grafana w/ Helm.
 
-# Architecture
+## Architecture
 ![Architecture]("Architecture.drawio.png")
