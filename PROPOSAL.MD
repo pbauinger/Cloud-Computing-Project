@@ -62,6 +62,5 @@ A open source relational database. Its a fork of MySQL. We will install it again
 ## Architecture
 We will run the Python application, Prometheus and Grafana on a single node.
 
-
-![image](https://user-images.githubusercontent.com/16125084/208323899-554408b3-5034-4c11-94bf-aec69d206d8f.png)
+![Architecture](https://user-images.githubusercontent.com/16125084/208540887-16d47dd1-84db-4111-b805-5fa912761ff1.png)
 
