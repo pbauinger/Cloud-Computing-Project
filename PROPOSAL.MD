@@ -20,7 +20,7 @@ For the database we want to get the following metrics:
 
 We will use [Grafana](https://grafana.com/docs/grafana/latest/introduction/) to visualize these metrics as graphs (since it supports querying for Prometheus, see [source](https://prometheus.io/docs/visualization/grafana/)).
 
-For testing (and demonstration) we will first run the application only one a single pod. We will load test the application and therefore trigger alerts when it becomes unresponsive. We then increase the number of pods and check if we can handle more load.
+For testing (and demonstration) we will first run the Python application only on a single pod. We will load test the application and therefore trigger alerts when it becomes unresponsive. We will also show the Grafana dashboards. We then increase the number of pods and check if we can handle more load and afterwards again inspect the Grafana dashboards.
 
 We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 
