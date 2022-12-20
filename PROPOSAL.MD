@@ -32,6 +32,7 @@ We will use [Helm](https://helm.sh/docs/) to install Prometheus and Grafana.
 | Helm Setup   |   X   |      |
 | Grafana & Prometheus Setup |   X   |   X   |
 | Script.py (including Prometheus-Client Library) |   X   |   X   |
+| Installing MariaDb including metrics |   X   |   X   |
 | Try Local hosting |   X   |   X   |
 | Setup Cloud hosting (gCloud) |     |   X   |
 
